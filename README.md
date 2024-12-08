@@ -3,7 +3,7 @@
 Este repositorio contiene un clon de la interfaz de usuario de [Malva Online](https://malvaonline.com/). El proyecto está desarrollado en **React** utilizando **Vite** y **TypeScript**.
 
 
-## Enlace para verlo online
+## Enlace para ver la pagina online
 https://malva-clone-ui.vercel.app/
 
 ## Rutas Implementadas
