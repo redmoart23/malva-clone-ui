@@ -2,13 +2,17 @@
 
 Este repositorio contiene un clon de la interfaz de usuario de [Malva Online](https://malvaonline.com/). El proyecto está desarrollado en **React** utilizando **Vite** y **TypeScript**.
 
+
+## Enlace para verlo online
+https://malva-clone-ui.vercel.app/
+
 ## Rutas Implementadas
 
 El proyecto incluye las siguientes rutas:
 
 - `/` - Página principal.
 - `/women-page` - Página de "Mujeres".
-- `/cart` - Página del carrito.
+- `/cart-page` - Página del carrito.
 
 ## Requisitos Previos
 
