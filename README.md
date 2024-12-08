@@ -1,50 +1,83 @@
-# React + TypeScript + Vite
+# Malva UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene un clon de la interfaz de usuario de [Malva Online](https://malvaonline.com/). El proyecto está desarrollado en **React** utilizando **Vite** y **TypeScript**.
 
-Currently, two official plugins are available:
+## Rutas Implementadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto incluye las siguientes rutas:
 
-## Expanding the ESLint configuration
+- `/` - Página principal.
+- `/women-page` - Página de "Mujeres".
+- `/cart` - Página del carrito.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Requisitos Previos
 
-- Configure the top-level `parserOptions` property like this:
+Asegúrate de tener instalados los siguientes elementos antes de comenzar:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Node.js** (versión 16 o superior)
+- **npm** o **yarn**
+
+## Instalación
+
+Clona el repositorio y ejecuta los siguientes comandos:
+
+```bash
+# Clona este repositorio
+git clone https://github.com/tuusuario/malva-ui-clone.git
+
+# Navega al directorio del proyecto
+cd malva-ui-clone
+
+# Instala las dependencias
+npm install
+# o, si usas yarn
+yarn install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Ejecución en Desarrollo
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para iniciar el servidor de desarrollo, ejecuta:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm run dev
+# o, si usas yarn
+yarn dev
 ```
+
+El proyecto estará disponible en: [http://localhost:5173](http://localhost:5173)
+
+## Scripts Disponibles
+
+- `npm run dev` / `yarn dev` - Inicia el servidor de desarrollo.
+- `npm run build` / `yarn build` - Genera los archivos para producción.
+- `npm run preview` / `yarn preview` - Inicia un servidor local para previsualizar la compilación de producción.
+
+## Estructura del Proyecto
+
+```plaintext
+malva-ui-clone/
+├── public/           # Archivos estáticos
+├── src/              # Código fuente
+│   ├── components/   # Componentes reutilizables
+│   ├── pages/        # Páginas principales
+│   ├── routes/       # Configuración de rutas
+│   ├── styles/       # Estilos globales
+│   └── main.tsx      # Punto de entrada
+├── .gitignore        # Archivos y carpetas ignorados por Git
+├── package.json      # Dependencias y scripts
+└── vite.config.ts    # Configuración de Vite
+```
+
+## Tecnologías Utilizadas
+
+- **React** - Librería para construir interfaces de usuario.
+- **Vite** - Herramienta rápida para desarrollo web.
+- **TypeScript** - Superconjunto tipado de JavaScript.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes ideas para mejorar el proyecto, por favor abre un *issue* o envía un *pull request*.
+
+## Licencia
+
+Este proyecto se encuentra bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
