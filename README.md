@@ -23,10 +23,10 @@ Clona el repositorio y ejecuta los siguientes comandos:
 
 ```bash
 # Clona este repositorio
-git clone https://github.com/tuusuario/malva-ui-clone.git
+git clone https://github.com/redmoart23/malva-clone-ui.git
 
 # Navega al directorio del proyecto
-cd malva-ui-clone
+cd malva-clone-ui
 
 # Instala las dependencias
 npm install
