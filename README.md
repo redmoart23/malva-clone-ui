@@ -1,5 +1,6 @@
-# Malva UI Clone
+# Malva UI Clone 
 
+## Autor - Rafael Eduardo Monsalve Arboleda
 Este repositorio contiene un clon de la interfaz de usuario de [Malva Online](https://malvaonline.com/). El proyecto está desarrollado en **React** utilizando **Vite** y **TypeScript**.
 
 
